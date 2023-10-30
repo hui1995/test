@@ -3,9 +3,11 @@ import datetime
 last_time=None
 import os
 def perform_backup():
+    #############
     # 定义数据库信息
     db_user = "debian-sys-maint"
     db_password = "RjI7wk8AMqrG9GCD"
+    ###############
     db_name = "test"
     current_directory='/home/yjy'
     ls=os.listdir(current_directory+"/sql")
